@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="javascript.js"></script>
+  </head>
+
+
+
+  <body>
+    <h1>
+      <div id="thetext" onclick="toggleEditor()">Title</div>
+      <div id="editor">
+        <input id="ta1" name="ta1" rows="1" cols="20">
+        <input name="submit" id="submit" type="button" value="OK">
+      </div>
+    </h1>
+
+
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2><div id="thetextHome">Home</div></h2>
+      <div id="editorHome">
+        <input id="ta2" name="ta2" rows=1 cols="20">
+        <input name="submit2" id="submit2" type="button" value="OK">
+      </div>
+
+      <div class="number"><p id="scoreHome">0</p></div>
+        <p id="addHome">[+]</p>
+        <p id="subHome">[-]</p>
+    </div>
+
+
+      <div class="column" style="background-color:#bbb;">
+        <h2><div id="thetextVisitor">Visitor</div></h2>
+        <div id="editorVisitor">
+          <input id="ta3" name="ta3" rows=1 cols="20">
+          <input name="submit3" id="submit3" type="button" value="OK">
+        </div>
+        <div class="number"><p id="scoreVisitor">0</p></div>
+          <p id="addVisitor">[+]</p>
+          <p id="subVisitor">[-]</p>
+      </div>
+
+    </div>
+
+</body>
+</html>

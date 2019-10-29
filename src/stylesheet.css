@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: roboto, arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 200%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div#editor {
+	display: none;
+}
+
+div#editorHome {
+  display: none;
+}
+
+div#editorVisitor {
+  display: none;
+}
+
+.number {
+  font-size: 800%;
+}
