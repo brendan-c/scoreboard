@@ -1,6 +1,6 @@
 # scoreboard
 
-Scoreboard is what you need to make track of game points!
+Scoreboard is what you need to keep track of game points!
 
 Done to be projected in large screens.
 
