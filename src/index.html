@@ -1,50 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="javascript.js"></script>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
 
 
 
-  <body>
-    <h1>
-      <div id="thetext" onclick="toggleEditor()">Title</div>
-      <div id="editor">
-        <input id="ta1" name="ta1" rows="1" cols="20">
-        <input name="submit" id="submit" type="button" value="OK">
+<body>
+  <h1>
+    <div id="thetext" class="title main btn">Title</div>
+    <div class="editor">
+      <input id="ta1" type="text" name="ta1" rows="1" cols="20">
+      <input name="submit" id="submit" type="button" value="OK" class="set_title btn">
+    </div>
+  </h1>
+
+
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <div id="thetextHome" class="title btn">Home</div>
+      </h2>
+      <div id="editorHome" class="editor">
+        <input id="ta2" type="text" name="ta2" rows=1 cols="20">
+        <input name="submit2" id="submit2" type="button" value="OK" class="set_title btn">
       </div>
-    </h1>
 
-
-    <div class="row">
-      <div class="column" style="background-color:#aaa;">
-        <h2><div id="thetextHome">Home</div></h2>
-      <div id="editorHome">
-        <input id="ta2" name="ta2" rows=1 cols="20">
-        <input name="submit2" id="submit2" type="button" value="OK">
+      <div class="number">
+        <p id="scoreHome" class="score">0</p>
       </div>
-
-      <div class="number"><p id="scoreHome">0</p></div>
-        <p id="addHome">[+]</p>
-        <p id="subHome">[-]</p>
+      <p id="addHome" class="change_score add btn">[+]</p>
+      <p id="subHome" class="change_score sub btn">[-]</p>
     </div>
 
 
-      <div class="column" style="background-color:#bbb;">
-        <h2><div id="thetextVisitor">Visitor</div></h2>
-        <div id="editorVisitor">
-          <input id="ta3" name="ta3" rows=1 cols="20">
-          <input name="submit3" id="submit3" type="button" value="OK">
-        </div>
-        <div class="number"><p id="scoreVisitor">0</p></div>
-          <p id="addVisitor">[+]</p>
-          <p id="subVisitor">[-]</p>
+    <div class="column" style="background-color:#bbb;">
+      <h2>
+        <div id="thetextVisitor" class="title btn">Visitor</div>
+      </h2>
+      <div id="editorVisitor" class="editor">
+        <input id="ta3" type="text" name="ta3" rows=1 cols="20">
+        <input name="submit3" id="submit3" type="button" value="OK" class="set_title btn">
       </div>
-
+      <div class="number">
+        <p id="scoreVisitor" class="score">0</p>
+      </div>
+      <p id="addVisitor" class="change_score add btn">[+]</p>
+      <p id="subVisitor" class="change_score sub btn">[-]</p>
     </div>
 
+  </div>
+  <!-- put js before end of body to avoid having to use onload in script -->
+  <script src="javascript.js"></script>
 </body>
+
 </html>

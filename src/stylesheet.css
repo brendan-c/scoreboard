@@ -3,11 +3,11 @@
 }
 
 body {
-	font-family: roboto, arial, sans-serif;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 1em;
+  font-family: roboto, arial, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1em;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h1 {
 }
 
 div#editor {
-	display: none;
+  display: none;
 }
 
 div#editorHome {
@@ -46,4 +46,8 @@ div#editorVisitor {
 
 .number {
   font-size: 800%;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
