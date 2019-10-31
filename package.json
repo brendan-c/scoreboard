@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LionyxML/scoreboard.git"
+    "url": "git+https://github.com/brendan-c/scoreboard.git"
   },
   "keywords": [],
-  "author": "LionyxML",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LionyxML/scoreboard/issues"
+    "url": "https://github.com/brendan-c/scoreboard/issues"
   },
-  "homepage": "https://github.com/LionyxML/scoreboard#readme"
+  "homepage": "https://github.com/brendan-c/scoreboard#readme"
 }
